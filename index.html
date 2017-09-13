@@ -14,23 +14,52 @@
         <h1>Short survey</h1>
       </div>
       <form id="FormOne">
-    <!-- Name(s) -->
         <div class="form-group">
           <label for="name">What's your name?</label>
           <input type="text" id="name" class="form-control">
         </div>
-    <!-- Favorite Foods -->
-
-    <!-- Favorite Music -->
-
-    <!-- Favorite Sports Team -->
-
-    <!-- Birthday -->
-
-    <!-- Pick a color -->
-
-    <!-- What was the Hex Value? -->
-
+        <div id="question">
+          <h3>What's your favorite food?</h3>
+        </div>
+        <select class="form-control" id="food">
+          <option>Pizza</option>
+          <option>Pasta</option>
+          <option>Burgers</option>
+          <option>Snails</option>
+        </select>
+        <div id="question">
+          <h3>What's your favorite music?</h3>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Hip-Hop">
+            Hip-Hop
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Rock">
+            Rock
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Country">
+            Country
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="sports">What's your favorite sports team?</label>
+          <input type="text" id="sports" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="born">When were you born?</label>
+          <input id="born" class="form-control" type="date">
+        </div>
+        <div class="form-group">
+          <label for="color">Choose your favorite color?></label>
+          <input id="color" class="form-control" type="color">
+        </div>
       </form>
     </div>
   </body>
